@@ -1,0 +1,116 @@
+body{
+  background-color: #F5F5F5;
+}
+.mode{
+  width: 20%;
+  float:right;
+  margin-top: 30px;
+}
+.custom-control-label:before{
+  background-color: #333;
+} 
+.custom-switch .custom-control-label:after{
+  background-color: #fff;
+} 
+.onswitch:before{
+  background-color: #fff !important;
+} 
+.custom-switch .onswitch:after{
+  background-color: #EC5062 !important;
+} 
+.loginBox{
+  width: 40%;
+  margin: 0 auto;
+  background: #FFFFFF;
+  border: 1px solid #00000026;
+  padding: 30px 20px;
+  opacity: 1;
+}
+.loginBox h3{
+  color:#BB001B;
+  text-align: center;
+    font-weight: 700;
+    background: -webkit-linear-gradient(left, #BB001B, #D103D9 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.loginBox form {
+  padding-top: 40px;
+}
+.loginBox form label{
+  font-size: 14px;
+  color: #333;
+  opacity: 50%;
+}
+.loginBox form .form-check-label{
+  font-size: 14px;
+  color: #333;
+  opacity: 100%;
+}
+.loginBox form input {
+  border: 1px solid #939EAD80;
+  border-radius: 8px;
+  opacity: 1;
+}
+.userinput::placeholder, .passinput::placeholder {
+  letter-spacing: 0.32px;
+  color: #333333;
+  opacity: 100%;
+  font-size: 16px;
+}
+.userinputDark::placeholder, .passinputDark::placeholder {
+  letter-spacing: 0.32px;
+  color: #fff;
+  opacity: 100%;
+  font-size: 16px;
+}
+.remember-me, .forget-pass{
+  display: inline;
+}
+.forget-pass{
+    float: right;
+}
+.login-btn{
+  display: block;
+  background: transparent linear-gradient(90deg, #F66353 0%, #DD3279 100%) 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  border: none; 
+  opacity: 1;
+  width: 100%;
+  text-align: center;
+  margin-top: 26px;
+}
+.signuptext{
+  font-size: 14px;
+  letter-spacing: 0.28px;
+  color: #999999;
+  text-align: center;
+  margin-top: 24px;
+}
+.orLogintext{
+  text-align: center;
+  letter-spacing: 0.28px;
+  color: #333333;
+  opacity: 1;
+  font-size: 14px;
+}
+.social{
+  text-align: center;
+}
+.social button{
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  box-shadow: 0px 3px 6px #00000019;
+  border: 1px solid #BB001B1A;
+  border-radius: 8px;
+  opacity: 1;
+}
+.footerText{
+  text-align: center;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  font-size: 14px;
+  margin-top: 15px;
+}
